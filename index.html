@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Indo para escola vejo um cachorro machucado e dexido levar ele para um veterinario</p>
+            <button class="btn-proximo" data-proximo="1">Veterinario</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>chego no veterinario e vejo um monte de pessoas na espera para ser atendido, logo penso em duas soluções uma espero para ser atendido ou vou para casa e cuido do cachorro machucado.</p>
+            <button class="btn-proximo" data-proximo="2">Esperar</button>
+            <button class="btn-proximo" data-proximo="3">Ir para Casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Depois de muito tempo sou atendida e o veterinario leva o cachorro para fazer exames, depois de umas horas o veterinario vem falar como e diz que o cachorro esta muito doente e pode morrer a qualquer momento. Logo penso em levar o cachorro para casa para ele viver seus ultimos dias feliz.</p>
+            <button class="btn-proximo" data-proximo="4">Casa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>cheguei em casa e vou logo pegar o kit de primeiro socorros mas quando e volto para o cachorro ele já tinha morrido.</p>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Depoi de 1 semana o cachorro morreu</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
